@@ -5,7 +5,7 @@ SELECT * FROM albums ;
 2-Récupérer tous les albums dont le titre contient "Great"
 
 SELECT * FROM albums
-WHERE Title Like '%great%'
+WHERE Title Like '%great%';
 
 3-Donner le nombre total d'albums contenus dans la base (sans regarder les id bien sûr)
 
@@ -20,13 +20,13 @@ WHERE Title Like '%music%';
 
 SELECT * FROM Albums
 INNER JOIN Artists ON albums.ArtistId = Artists.ArtistID
-WHERE name = "AC/DC"
+WHERE name = "AC/DC";
 
 6-Récupérer tous les titres des albums de AC/DC
 
 SELECT Title FROM Albums
 INNER JOIN Artists ON albums.artistID = Artists.ArtistsID
-WHERE name = "AC/DC"
+WHERE name = "AC/DC";
 
 7-Récupérer la liste des titres de l'album "Let There Be Rock"
 
